@@ -42,7 +42,7 @@ Nguồn evidence: `detection_predictions.json` và `visuals/detection_prediction
 Nguồn evidence: `segmentation_predictions.json` và `visuals/segmentation_prediction.png`, sample `kitchen`.
 
 - Một record (`instance_id`, `class_name`, `score`, số điểm và một phần `polygon_xy`):
-	`instance_id = kitchen-001`, `class_name = person`, `score = 0.899318`, có `348` điểm polygon. Một phần `polygon_xy` là `[[446.0, 70.0], [445.0, 71.0], [444.0, 71.0], [443.0, 72.0], [442.0, 72.0], [441.0, 73.0], [439.0, 73.0], [438.0, 74.0]]`. Bounding box là `[385.45, 66.44, 498.02, 348.58]`.
+	`instance_id = kitchen-001`, `class_name = person`, `score = 0.899318`, có `348` điểm polygon. Một phần `polygon_xy` là `[[446.0, 70.0], [445.0, 71.0], [444.0, 71.0], [443.0, 72.0], [442.0, 72.0], [441.0, 73.0], [439.0, 73.0], [438.0, 74.0]]`.
 - Polygon bổ sung chi tiết gì so với box?
 	Polygon bám theo đường biên của người, nên mô tả hình dạng và phần nhìn thấy chi tiết hơn hình chữ nhật bounding box. Box chỉ cho biết vùng bao quanh object.
 - `instance_id` dùng để làm gì và không phải loại ID nào?
