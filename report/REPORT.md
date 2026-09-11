@@ -46,7 +46,7 @@ Nguồn evidence: `segmentation_predictions.json` và `visuals/segmentation_pred
 - Polygon bổ sung chi tiết gì so với box?
 	Polygon bám theo đường biên của người, nên mô tả hình dạng và phần nhìn thấy chi tiết hơn hình chữ nhật bounding box. Box chỉ cho biết vùng bao quanh object.
 - `instance_id` dùng để làm gì và không phải loại ID nào?
-	`instance_id = kitchen-001` dùng để phân biệt instance người này với các object khác trong cùng ảnh. Đây không phải là `class_id`, không phải mã lớp COCO và cũng không phải ID cá nhân của con người.
+	`instance_id = kitchen-001` dùng để phân biệt instance người này với các object khác trong cùng ảnh; nó khác với `class_id` và `class_name` là các trường mô tả loại object.
 - Đề xuất một quy tắc biên mask:
 	Polygon phải bám sát phần nhìn thấy của object, không bao gồm nền hoặc object khác; các điểm phải nằm trong kích thước ảnh và tạo thành vùng kín có ít nhất ba điểm.
 - Với vùng mờ/tiếp xúc/che khuất, điều gì cần guideline hoặc escalation quyết định?
