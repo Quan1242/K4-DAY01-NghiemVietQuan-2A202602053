@@ -70,12 +70,12 @@ Chỉ thu thập, sử dụng và lưu trữ những hình ảnh, dữ liệu c�
 Người phụ trách trực tiếp để được xác nhận và xử lý trước khi tiếp tục.
 ## 6. Danh sách bằng chứng
 
-- [ ] `classification_predictions.json`
-- [ ] `detection_predictions.json`
-- [ ] `segmentation_predictions.json`
-- [ ] `IMAGE_ATTRIBUTION.md`
-- [ ] `visuals/classification_top5.png`
-- [ ] `visuals/detection_predictions.png`
-- [ ] `visuals/segmentation_prediction.png`
-- [ ] Ô validation cuối notebook báo `PASS`.
-- [ ] Không có họ tên, MSSV hoặc dữ liệu nhạy cảm trong báo cáo/output.
+- [x] `classification_predictions.json`
+- [x] `detection_predictions.json`
+- [x] `segmentation_predictions.json`
+- [x] `IMAGE_ATTRIBUTION.md`
+- [x] `visuals/classification_top5.png`
+- [x] `visuals/detection_predictions.png`
+- [x] `visuals/segmentation_prediction.png`
+- [x] Ô validation cuối notebook báo `PASS`.
+- [x] Không có họ tên, MSSV hoặc dữ liệu nhạy cảm trong báo cáo/output.
